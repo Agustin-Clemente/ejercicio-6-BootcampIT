@@ -1,5 +1,9 @@
 var cantidadDeGatos = 10;
 
+console.log("---------")
+console.log("|PUNTO A|")
+console.log("---------")
+
 for (let index = 1; index <= cantidadDeGatos; index++) {
     if (index % 3 == 0) {
         console.log("Gato #" + index + ": 😹")
